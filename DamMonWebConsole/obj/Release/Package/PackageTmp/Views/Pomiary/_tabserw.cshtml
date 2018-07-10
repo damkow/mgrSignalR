@@ -1,0 +1,43 @@
+﻿@model IEnumerable<DamMonWebConsole.Models.Serwer>
+@{
+    ViewBag.Title = "Pomiary";
+}
+<h2>Prezentacja pomiarów podstawowych parametrów serwerów</h2>
+<p>@Html.ActionLink("Lista serwerów", "Index", "Serwer", null, new { @class = "btn btn-primary" })</p>
+<div class="container">
+    <div>
+        <div class="row">
+            <div class="col-md-12">
+                <table class="table table-bordered table-striped">
+                    <thead>
+                        <tr>
+                            <th width="100" class="text-center"><i class="fa fa-server fa-lg"> </i>Serwer</th>
+                            <th class="text-center" width="100">CPU</th>
+                            <th width="100" class="text-center">Dostępny RAM</th>
+                            <th width="100" class="text-center">Średnia dł. kolejki DYSKU</th>
+                            <th width="150" class="text-center">DATA POM</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var serwer in Model)
+                        {
+                            string nazwaCPUDiv = serwer.Nazwa + "_CPU";
+                            string nazwaRAMDiv = serwer.Nazwa + "_RAM";
+                            string nazwaDYSKDiv = serwer.Nazwa + "_DYSK";
+                            string nazwaDTPomDiv = serwer.Nazwa + "_DTPom";
+                            string nazwaTr = serwer.Nazwa + "_tr";
+                            <tr id="@nazwaTr">
+                                <td><strong>@serwer.Nazwa</strong></td>
+                                <td class="text-center"><div id="@nazwaCPUDiv"></div></td>
+                                <td class="text-center"><div id="@nazwaRAMDiv"></div></td>
+                                <td class="text-center"><div id="@nazwaDYSKDiv"></div></td>
+                                <td class="text-center"><div id="@nazwaDTPomDiv"></div></td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+

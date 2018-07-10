@@ -1,0 +1,56 @@
+﻿
+@{
+    ViewBag.Title = "Chat";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script src="~/Scripts/jquery.signalR-2.2.2.min.js"></script>
+<script src="~/signalr/hubs"></script>
+<script type="text/javascript">
+        $(function () {
+            // Deklaracja proxy do odniesienia dla Hub.
+            var chat = $.connection.chatHub;
+            // Funckja dla hub-a aby mógł wysyłać wiadomości.
+            chat.client.nadajWiadomosc = function (nazwa, wiadomosc) {
+                // Kod Html dla wiadomosci.
+                var czas = new Date();
+                
+                var encodedNazwa = $('<div />').text(nazwa).html();
+                var encodedWiad = $('<div />').text(wiadomosc).html();
+                // Dodanie wiadomośći do strony.
+                $('#dyskusja').append('<li><strong>' + czas.toLocaleDateString() + ' ' + czas.toLocaleTimeString() + ' - ' + encodedNazwa
+                    + '</strong>:&nbsp;&nbsp;' + encodedWiad + '</li>');
+            };
+            // Pobranie nazwy użytkownika i zapisanie w polu.
+            $('#uzytkownik').val(prompt('Wpisz nazwę użytkownika:', ''));
+            // Ustawienie fokus na pole wiadomośći.
+            $('#wiadomosc').focus();
+            // Sart połączenia.
+            $.connection.hub.start().done(function () {
+                $('#wyslijwiad').click(function () {
+                    // Wywolanie wyslania na Hub.
+                    chat.server.wyslijWiadomosci($('#uzytkownik').val(), $('#wiadomosc').val());
+                    // WYczyszczenie pola wiadomosci i ustawienie fokusa.
+                    $('#wiadomosc').val('').focus();
+                });
+            });
+        });
+</script>
+
+
+<h2>Chat</h2>
+<div class="container">
+    <div class="col-md-12 form-inline">
+        <label for="wiadomosc">Wiadomość:</label>
+        <input type="text" name="wiadomosc" id="wiadomosc" class="form-control" />
+        <input type="button" name="wyslijwiad" id="wyslijwiad" class="btn btn-primary btn-sm" value="Wyślij" />
+        <input type="hidden" name="uzytkownik" id="uzytkownik" />
+    </div>
+    <h6>Dyskusja:</h6>
+    <div class="well col-md-12">
+        
+        <ul id="dyskusja"></ul>
+    </div>
+</div>
+
+
+

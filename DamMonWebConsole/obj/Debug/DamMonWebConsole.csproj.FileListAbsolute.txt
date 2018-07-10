@@ -1,0 +1,102 @@
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonWebConsole\bin\DamMonWebConsole.dll.config
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonWebConsole\bin\DamMonWebConsole.dll
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonWebConsole\bin\DamMonWebConsole.pdb
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonWebConsole\bin\Antlr3.Runtime.dll
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonWebConsole\bin\EntityFramework.dll
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonWebConsole\bin\EntityFramework.SqlServer.dll
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonWebConsole\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonWebConsole\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonWebConsole\bin\Microsoft.Owin.dll
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonWebConsole\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonWebConsole\bin\Microsoft.Owin.Security.dll
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonWebConsole\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonWebConsole\bin\Newtonsoft.Json.dll
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonWebConsole\bin\Owin.dll
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonWebConsole\bin\System.Web.Helpers.dll
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonWebConsole\bin\System.Web.Mvc.dll
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonWebConsole\bin\System.Web.Optimization.dll
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonWebConsole\bin\System.Web.Razor.dll
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonWebConsole\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonWebConsole\bin\System.Web.WebPages.dll
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonWebConsole\bin\System.Web.WebPages.Razor.dll
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonWebConsole\bin\WebGrease.dll
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonWebConsole\bin\EntityFramework.xml
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonWebConsole\bin\EntityFramework.SqlServer.xml
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonWebConsole\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonWebConsole\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonWebConsole\bin\Microsoft.Owin.xml
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonWebConsole\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonWebConsole\bin\Microsoft.Owin.Security.xml
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonWebConsole\bin\System.Web.Helpers.xml
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonWebConsole\bin\System.Web.Mvc.xml
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonWebConsole\bin\System.Web.Optimization.xml
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonWebConsole\bin\System.Web.Razor.xml
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonWebConsole\bin\System.Web.WebPages.xml
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonWebConsole\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonWebConsole\bin\System.Web.WebPages.Razor.xml
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonWebConsole\bin\Antlr3.Runtime.pdb
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonWebConsole\bin\Newtonsoft.Json.xml
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonWebConsole\bin\pl\System.Web.Helpers.resources.dll
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonWebConsole\bin\pl\System.Web.Mvc.resources.dll
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonWebConsole\bin\pl\System.Web.Optimization.resources.dll
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonWebConsole\bin\pl\System.Web.Razor.resources.dll
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonWebConsole\bin\pl\System.Web.WebPages.resources.dll
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonWebConsole\bin\pl\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonWebConsole\bin\pl\System.Web.WebPages.Razor.resources.dll
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonWebConsole\obj\Debug\DamMonWebConsole.dll
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonWebConsole\obj\Debug\DamMonWebConsole.pdb
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonWebConsole\obj\Debug\DamMonWebConsole.csprojResolveAssemblyReference.cache
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonWebConsole\obj\Debug\DamMonWebConsole.Migrations.Initial.resources
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonWebConsole\obj\Debug\DamMonWebConsole.csproj.GenerateResource.Cache
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonWebConsole\bin\DamMonWebConsole.dll.config
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonWebConsole\bin\DamMonWebConsole.dll
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonWebConsole\bin\DamMonWebConsole.pdb
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonWebConsole\bin\Antlr3.Runtime.dll
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonWebConsole\bin\EntityFramework.dll
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonWebConsole\bin\EntityFramework.SqlServer.dll
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonWebConsole\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonWebConsole\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonWebConsole\bin\Microsoft.Owin.dll
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonWebConsole\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonWebConsole\bin\Microsoft.Owin.Security.dll
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonWebConsole\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonWebConsole\bin\Newtonsoft.Json.dll
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonWebConsole\bin\Owin.dll
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonWebConsole\bin\System.Web.Helpers.dll
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonWebConsole\bin\System.Web.Mvc.dll
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonWebConsole\bin\System.Web.Optimization.dll
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonWebConsole\bin\System.Web.Razor.dll
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonWebConsole\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonWebConsole\bin\System.Web.WebPages.dll
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonWebConsole\bin\System.Web.WebPages.Razor.dll
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonWebConsole\bin\WebGrease.dll
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonWebConsole\bin\EntityFramework.xml
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonWebConsole\bin\EntityFramework.SqlServer.xml
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonWebConsole\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonWebConsole\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonWebConsole\bin\Microsoft.Owin.xml
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonWebConsole\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonWebConsole\bin\Microsoft.Owin.Security.xml
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonWebConsole\bin\System.Web.Helpers.xml
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonWebConsole\bin\System.Web.Mvc.xml
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonWebConsole\bin\System.Web.Optimization.xml
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonWebConsole\bin\System.Web.Razor.xml
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonWebConsole\bin\System.Web.WebPages.xml
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonWebConsole\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonWebConsole\bin\System.Web.WebPages.Razor.xml
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonWebConsole\bin\Antlr3.Runtime.pdb
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonWebConsole\bin\Newtonsoft.Json.xml
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonWebConsole\bin\pl\System.Web.Helpers.resources.dll
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonWebConsole\bin\pl\System.Web.Mvc.resources.dll
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonWebConsole\bin\pl\System.Web.Optimization.resources.dll
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonWebConsole\bin\pl\System.Web.Razor.resources.dll
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonWebConsole\bin\pl\System.Web.WebPages.resources.dll
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonWebConsole\bin\pl\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonWebConsole\bin\pl\System.Web.WebPages.Razor.resources.dll
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonWebConsole\obj\Debug\DamMonWebConsole.csprojResolveAssemblyReference.cache
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonWebConsole\obj\Debug\DamMonWebConsole.csproj.CoreCompileInputs.cache
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonWebConsole\obj\Debug\DamMonWebConsole.dll
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonWebConsole\obj\Debug\DamMonWebConsole.pdb
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonWebConsole\obj\Debug\DamMonWebConsole.Migrations.initial.resources
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonWebConsole\obj\Debug\DamMonWebConsole.csproj.GenerateResource.Cache
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonWebConsole\obj\Debug\DamMonWebConsole.csproj.CopyComplete

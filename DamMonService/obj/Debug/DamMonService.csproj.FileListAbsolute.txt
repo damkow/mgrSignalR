@@ -1,0 +1,12 @@
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonService\bin\Debug\DamMonService.exe.config
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonService\bin\Debug\DamMonService.exe
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonService\bin\Debug\DamMonService.pdb
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonService\bin\Debug\EntityFramework.dll
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonService\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonService\bin\Debug\EntityFramework.xml
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonService\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonService\obj\Debug\DamMonService.csprojResolveAssemblyReference.cache
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonService\obj\Debug\DamMonService.exe
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonService\obj\Debug\DamMonService.pdb
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonService\obj\Debug\DamMonService.ProjectInstaller.resources
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonService\obj\Debug\DamMonService.csproj.GenerateResource.Cache

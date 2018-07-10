@@ -1,0 +1,76 @@
+﻿Instalowanie zestawu 'C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonService\bin\Release\DamMonService.exe'.
+Uwzględnione parametry to:
+   logtoconsole = 
+   assemblypath = C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonService\bin\Release\DamMonService.exe
+   logfile = C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonService\bin\Release\DamMonService.InstallLog
+Trwa instalowanie usługi MonitorService...
+Trwa tworzenie źródła EventLog MonitorService w dzienniku Application...
+Wycofywanie zestawu 'C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonService\bin\Release\DamMonService.exe'.
+Uwzględnione parametry to:
+   logtoconsole = 
+   assemblypath = C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonService\bin\Release\DamMonService.exe
+   logfile = C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonService\bin\Release\DamMonService.InstallLog
+Przywracanie dziennika zdarzeń do poprzedniego stanu dla źródła MonitorService.
+Podczas fazy wycofywania instalatora System.Diagnostics.EventLogInstaller wystąpił wyjątek.
+System.Security.SecurityException: Nie znaleziono źródła, ale nie można przeszukać niektórych lub wszystkich dzienników zdarzeń. Niedostępne dzienniki: Security.
+Podczas fazy wycofywania instalacji wystąpił wyjątek. Wyjątek ten zostanie zignorowany, a wycofywanie będzie kontynuowane. Jednak po ukończeniu wycofywania komputer może nie powrócić całkowicie do stanu początkowego.
+Instalowanie zestawu 'C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonService\bin\Release\DamMonService.exe'.
+Uwzględnione parametry to:
+   logtoconsole = 
+   assemblypath = C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonService\bin\Release\DamMonService.exe
+   logfile = C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonService\bin\Release\DamMonService.InstallLog
+Trwa instalowanie usługi MonitorService...
+Usługa MonitorService została zainstalowana pomyślnie.
+Trwa tworzenie źródła EventLog MonitorService w dzienniku Application...
+Zatwierdzanie zestawu 'C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonService\bin\Release\DamMonService.exe'.
+Uwzględnione parametry to:
+   logtoconsole = 
+   assemblypath = C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonService\bin\Release\DamMonService.exe
+   logfile = C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonService\bin\Release\DamMonService.InstallLog
+Odinstalowywanie zestawu 'C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonService\bin\Release\DamMonService.exe'.
+Uwzględnione parametry to:
+   logtoconsole = 
+   assemblypath = C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonService\bin\Release\DamMonService.exe
+   logfile = C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonService\bin\Release\DamMonService.InstallLog
+Usuwanie źródła EventLog MonitorService.
+Trwa usuwanie usługi MonitorService z systemu...
+Usługa MonitorService została pomyślnie usunięta z systemu.
+Próba zatrzymania usługi MonitorService.
+Instalowanie zestawu 'C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonService\bin\Release\DamMonService.exe'.
+Uwzględnione parametry to:
+   logtoconsole = 
+   assemblypath = C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonService\bin\Release\DamMonService.exe
+   logfile = C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonService\bin\Release\DamMonService.InstallLog
+Trwa instalowanie usługi MonitorService...
+Trwa tworzenie źródła EventLog MonitorService w dzienniku Application...
+Wycofywanie zestawu 'C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonService\bin\Release\DamMonService.exe'.
+Uwzględnione parametry to:
+   logtoconsole = 
+   assemblypath = C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonService\bin\Release\DamMonService.exe
+   logfile = C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonService\bin\Release\DamMonService.InstallLog
+Przywracanie dziennika zdarzeń do poprzedniego stanu dla źródła MonitorService.
+Podczas fazy wycofywania instalatora System.Diagnostics.EventLogInstaller wystąpił wyjątek.
+System.Security.SecurityException: Nie znaleziono źródła, ale nie można przeszukać niektórych lub wszystkich dzienników zdarzeń. Niedostępne dzienniki: Security.
+Podczas fazy wycofywania instalacji wystąpił wyjątek. Wyjątek ten zostanie zignorowany, a wycofywanie będzie kontynuowane. Jednak po ukończeniu wycofywania komputer może nie powrócić całkowicie do stanu początkowego.
+Instalowanie zestawu 'C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonService\bin\Release\DamMonService.exe'.
+Uwzględnione parametry to:
+   logtoconsole = 
+   logfile = C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonService\bin\Release\DamMonService.InstallLog
+   assemblypath = C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonService\bin\Release\DamMonService.exe
+Trwa instalowanie usługi MonitorService...
+Usługa MonitorService została zainstalowana pomyślnie.
+Trwa tworzenie źródła EventLog MonitorService w dzienniku Application...
+Zatwierdzanie zestawu 'C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonService\bin\Release\DamMonService.exe'.
+Uwzględnione parametry to:
+   logtoconsole = 
+   logfile = C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonService\bin\Release\DamMonService.InstallLog
+   assemblypath = C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonService\bin\Release\DamMonService.exe
+Odinstalowywanie zestawu 'C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonService\bin\Release\DamMonService.exe'.
+Uwzględnione parametry to:
+   logtoconsole = 
+   logfile = C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonService\bin\Release\DamMonService.InstallLog
+   assemblypath = C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonService\bin\Release\DamMonService.exe
+Usuwanie źródła EventLog MonitorService.
+Trwa usuwanie usługi MonitorService z systemu...
+Usługa MonitorService została pomyślnie usunięta z systemu.
+Próba zatrzymania usługi MonitorService.

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MonitoringModelStoreContainer" CdmEntityContainer="DamMonEntities">
+    <EntitySetMapping Name="Pomiary">
+      <EntityTypeMapping TypeName="MonitoringModel.Pomiary">
+        <MappingFragment StoreEntitySet="Pomiary">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CzasProcesora" ColumnName="CzasProcesora" />
+          <ScalarProperty Name="SredniaDlugoscKolejkiDyski" ColumnName="SredniaDlugoscKolejkiDyski" />
+          <ScalarProperty Name="DostepnaPamiec" ColumnName="DostepnaPamiec" />
+          <ScalarProperty Name="DataCzasProbki" ColumnName="DataCzasProbki" />
+          <ScalarProperty Name="NazwaSerwera" ColumnName="NazwaSerwera" />
+          <ScalarProperty Name="SerwerID" ColumnName="SerwerID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Serwery">
+      <EntityTypeMapping TypeName="MonitoringModel.Serwery">
+        <MappingFragment StoreEntitySet="Serwery">
+          <ScalarProperty Name="Nazwa" ColumnName="Nazwa" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

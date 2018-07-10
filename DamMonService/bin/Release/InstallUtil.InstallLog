@@ -1,0 +1,76 @@
+﻿
+Uruchamianie instalacji transakcyjnej.
+
+Rozpoczyna się faza instalacji procesu instalacji.
+Aby sprawdzić postęp zestawu C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonService\bin\Release\DamMonService.exe, zapoznaj się z zawartością pliku dziennika.
+Plik znajduje się w C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonService\bin\Release\DamMonService.InstallLog.
+
+Podczas fazy instalacji wystąpił wyjątek.
+System.Security.SecurityException: Nie znaleziono źródła, ale nie można przeszukać niektórych lub wszystkich dzienników zdarzeń. Niedostępne dzienniki: Security.
+
+Rozpoczyna się faza wycofywania procesu instalacji.
+Aby sprawdzić postęp zestawu C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonService\bin\Release\DamMonService.exe, zapoznaj się z zawartością pliku dziennika.
+Plik znajduje się w C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonService\bin\Release\DamMonService.InstallLog.
+
+Faza wycofywania została ukończona pomyślnie.
+
+Instalacja transakcyjna została ukończona.
+
+Uruchamianie instalacji transakcyjnej.
+
+Rozpoczyna się faza instalacji procesu instalacji.
+Aby sprawdzić postęp zestawu C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonService\bin\Release\DamMonService.exe, zapoznaj się z zawartością pliku dziennika.
+Plik znajduje się w C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonService\bin\Release\DamMonService.InstallLog.
+
+Faza instalacji została ukończona pomyślnie i rozpoczyna się faza rezerwacji.
+Aby sprawdzić postęp zestawu C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonService\bin\Release\DamMonService.exe, zapoznaj się z zawartością pliku dziennika.
+Plik znajduje się w C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonService\bin\Release\DamMonService.InstallLog.
+
+Faza rezerwacji została ukończona pomyślnie.
+
+Instalacja transakcyjna została ukończona.
+
+
+Rozpoczyna się dezinstalacja.
+Aby sprawdzić postęp zestawu C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonService\bin\Release\DamMonService.exe, zapoznaj się z zawartością pliku dziennika.
+Plik znajduje się w C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonService\bin\Release\DamMonService.InstallLog.
+
+Dezinstalacja została ukończona.
+
+Uruchamianie instalacji transakcyjnej.
+
+Rozpoczyna się faza instalacji procesu instalacji.
+Aby sprawdzić postęp zestawu C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonService\bin\Release\DamMonService.exe, zapoznaj się z zawartością pliku dziennika.
+Plik znajduje się w C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonService\bin\Release\DamMonService.InstallLog.
+
+Podczas fazy instalacji wystąpił wyjątek.
+System.Security.SecurityException: Nie znaleziono źródła, ale nie można przeszukać niektórych lub wszystkich dzienników zdarzeń. Niedostępne dzienniki: Security.
+
+Rozpoczyna się faza wycofywania procesu instalacji.
+Aby sprawdzić postęp zestawu C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonService\bin\Release\DamMonService.exe, zapoznaj się z zawartością pliku dziennika.
+Plik znajduje się w C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonService\bin\Release\DamMonService.InstallLog.
+
+Faza wycofywania została ukończona pomyślnie.
+
+Instalacja transakcyjna została ukończona.
+
+Uruchamianie instalacji transakcyjnej.
+
+Rozpoczyna się faza instalacji procesu instalacji.
+Aby sprawdzić postęp zestawu C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonService\bin\Release\DamMonService.exe, zapoznaj się z zawartością pliku dziennika.
+Plik znajduje się w C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonService\bin\Release\DamMonService.InstallLog.
+
+Faza instalacji została ukończona pomyślnie i rozpoczyna się faza rezerwacji.
+Aby sprawdzić postęp zestawu C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonService\bin\Release\DamMonService.exe, zapoznaj się z zawartością pliku dziennika.
+Plik znajduje się w C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonService\bin\Release\DamMonService.InstallLog.
+
+Faza rezerwacji została ukończona pomyślnie.
+
+Instalacja transakcyjna została ukończona.
+
+
+Rozpoczyna się dezinstalacja.
+Aby sprawdzić postęp zestawu C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonService\bin\Release\DamMonService.exe, zapoznaj się z zawartością pliku dziennika.
+Plik znajduje się w C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonService\bin\Release\DamMonService.InstallLog.
+
+Dezinstalacja została ukończona.

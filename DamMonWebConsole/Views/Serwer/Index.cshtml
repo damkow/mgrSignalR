@@ -1,0 +1,35 @@
+﻿@model IEnumerable<DamMonWebConsole.Models.Serwer>
+
+@{
+    ViewBag.Title = "Serwery-lista";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Lista serwerów</h2>
+
+<p>
+    @Html.ActionLink("Dodaj nowy", "Create", null, new { @class="btn btn-primary btn-sm" })
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nazwa)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nazwa)
+        </td>
+        <td>
+            @Html.ActionLink("Pomiary", "Pomiary", new { id = item.ID }, new { @class = "btn btn-primary btn-xs" }) |
+            @Html.ActionLink("Edycja", "Edit", new { id=item.ID }, new { @class = "btn btn-primary btn-xs" }) |
+            @Html.ActionLink("Usuń", "Delete", new { id=item.ID }, new { @class = "btn btn-danger btn-xs" })
+        </td>
+    </tr>
+}
+
+</table>
+

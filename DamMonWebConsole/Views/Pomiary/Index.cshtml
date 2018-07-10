@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="jumbotron">
+    <h2>Przykład prezentacji pobranych próbek patametrów:</h2>
+    <p>@Html.ActionLink("Monitor z użyciem jquery", "indexjq", "Pomiary", null, new { @class = "btn btn-primary"})</p>
+    <p>@Html.ActionLink("Monitor z przesłaniem obiektu", "indexwp", "Pomiary", null, new { @class = "btn btn-primary" })</p>
+    <p>@Html.ActionLink("Lista serwerów", "Index", "Serwer", null, new { @class = "btn btn-primary" })</p>
+</div>
+

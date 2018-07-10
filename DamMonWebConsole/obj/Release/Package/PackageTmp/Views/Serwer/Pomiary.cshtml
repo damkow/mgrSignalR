@@ -1,0 +1,57 @@
+﻿@model IEnumerable<DamMonWebConsole.Models.Pomiar>
+
+@{
+    ViewBag.Title = "Pomiary-lista";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script>
+    $(document).ready(function () {
+        $('#tabpomiar').DataTable({
+            stateSave: true,
+            language: {
+                url: '~/../../../Scripts/DataTables/localization/Polish.json'
+            }
+        });
+    });
+</script>
+
+<h2>Pomiary dla serwera: @ViewBag.SerwerNazwa</h2>
+
+<table class="table table-striped table-bordered" id="tabpomiar">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CzasProcesora)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SredniaDlugoscKolejkiDyski)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DostepnaPamiec)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DataCzasProbki)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CzasProcesora)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SredniaDlugoscKolejkiDyski)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DostepnaPamiec)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DataCzasProbki)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,107 @@
+﻿@model IEnumerable<DamMonWebConsole.Models.Serwer>
+
+@section scripts{
+    <script src="~/Scripts/jquery.signalR-2.2.2.min.js"></script>
+    <script src="~/signalr/hubs"></script>
+    <script>
+            $(function () {
+                // Deklaracja proxy dla hub-a.
+                var notifications = $.connection.pomiaryHub;
+                // Funckja, która może wywoływać Hub.
+                notifications.client.aktualizujPomiary = function () {
+                   @{
+                        foreach (var serwerjc in Model)
+                        {
+                            string fjavac = "pobierzPomiary(\"" + serwerjc.Nazwa + "\");\n";
+                            @Html.Raw(fjavac);
+                        }
+                    }
+                };
+
+                // Wystartowanie połączenia.
+                //$.connection.hub.logging = true;
+                $.connection.hub.start().done(function () {
+                    //alert("Połączony z serwerem");
+                    @{
+                        foreach (var serwerjc in Model)
+                        {
+                            string fjavac = "pobierzPomiary(\"" + serwerjc.Nazwa + "\");\n";
+                            @Html.Raw(fjavac);
+                        }
+                    }
+
+                }).fail(function (e) {
+                    alert(e);
+                });
+            });
+
+
+        function pobierzPomiary(serwer) {
+            //debugger;
+            $.ajax({
+                url: '~/../PobierzProbki',
+                type: 'POST',
+                cache: false,
+                async: true,
+                data: { 'serwer': serwer },
+                success: function (result) {
+                    var splRes = result.split(";");
+                    wstawPomiar(splRes[1], splRes[2], splRes[3], splRes[4], splRes[0]);
+                },
+                error: function (ex) {
+                    console.log(ex);
+                }
+            });
+        }
+        function wstawPomiar(cpu,dysk,ram,data,serwer) {
+            var interval = 5000;
+            var divcpu = "#" + serwer + "_CPU";
+            var divdysk = "#" + serwer + "_DYSK";
+            var divram = "#" + serwer + "_RAM";
+            var divdt = "#" + serwer + "_DTPom";
+            var trkol = "#" + serwer + "_tr";
+
+            var acpu = parseFloat($(divcpu).text().replace(',', '.'));
+            $(divcpu).empty();
+            $(divcpu).append(cpu);
+            var ncpu = parseFloat(cpu.replace(',', '.'));
+            if (ncpu > acpu) {
+                $(divcpu).addClass('change_blink_up');
+            }
+            if (ncpu < acpu) {
+                $(divcpu).addClass('change_blink_down');
+            }
+            setTimeout(function () { $(divcpu).removeClass('change_blink_up').removeClass('change_blink_down') }, interval);
+
+
+            var aram = parseFloat($(divram).text().replace(',', '.'));
+            $(divram).empty();
+            $(divram).append(ram);
+            var nram = parseFloat(ram.replace(',', '.'));
+            if (nram < aram) {
+                $(divram).addClass('change_blink_up');
+            }
+            if (nram > aram) {
+                $(divram).addClass('change_blink_down');
+            }
+            setTimeout(function () { $(divram).removeClass('change_blink_up').removeClass('change_blink_down') }, interval);
+
+            var adisk = Number($(divdysk).text().replace(',', '.'));
+            $(divdysk).empty();
+            $(divdysk).append(dysk);
+            var ndisk = Number(dysk.replace(',', '.'));
+            if (ndisk > adisk) {
+                $(divdysk).addClass('change_blink_up');
+            }
+            if (ndisk < adisk) {
+                $(divdysk).addClass('change_blink_down');
+            }
+            setTimeout(function () { $(divdysk).removeClass('change_blink_up').removeClass('change_blink_down') }, interval);
+
+            $(divdt).empty();
+            $(divdt).append(data);
+        }
+    </script>
+}
+
+@Html.Partial("_tabserw",Model)

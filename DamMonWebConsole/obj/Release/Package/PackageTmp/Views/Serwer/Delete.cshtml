@@ -1,0 +1,31 @@
+﻿@model DamMonWebConsole.Models.Serwer
+
+@{
+    ViewBag.Title = "Usuwanie-serwer";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Usuń</h2>
+
+<h3>Czy na pewno usunąć serwer?</h3>
+<div>
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nazwa)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nazwa)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Usuń" class="btn btn-danger" /> |
+            @Html.ActionLink("Lista serwerów", "Index", null, new { @class = "btn btn-primary btn-sm" })
+        </div>
+    }
+</div>

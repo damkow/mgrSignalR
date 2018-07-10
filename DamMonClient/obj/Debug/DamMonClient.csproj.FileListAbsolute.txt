@@ -1,0 +1,25 @@
+c:\users\damian\documents\visual studio 2013\Projects\DamMonClient\DamMonClient\bin\Debug\DamMonClient.exe.config
+c:\users\damian\documents\visual studio 2013\Projects\DamMonClient\DamMonClient\bin\Debug\DamMonClient.exe
+c:\users\damian\documents\visual studio 2013\Projects\DamMonClient\DamMonClient\bin\Debug\DamMonClient.pdb
+c:\users\damian\documents\visual studio 2013\Projects\DamMonClient\DamMonClient\obj\Debug\DamMonClient.csprojResolveAssemblyReference.cache
+c:\users\damian\documents\visual studio 2013\Projects\DamMonClient\DamMonClient\obj\Debug\DamMonClient.exe
+c:\users\damian\documents\visual studio 2013\Projects\DamMonClient\DamMonClient\obj\Debug\DamMonClient.pdb
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonClient\bin\Debug\EntityFramework.dll
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonClient\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonClient\bin\Debug\EntityFramework.xml
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonClient\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Damian\Documents\Visual Studio 2013\Projects\DamMonClient\DamMonClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonClient\bin\Debug\DamMonClient.exe.config
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonClient\bin\Debug\DamMonClient.exe
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonClient\bin\Debug\DamMonClient.pdb
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonClient\bin\Debug\EntityFramework.dll
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonClient\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonClient\bin\Debug\EntityFramework.xml
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonClient\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonClient\obj\Debug\DamMonClient.csprojResolveAssemblyReference.cache
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonClient\obj\Debug\DamMonClient.csproj.CoreCompileInputs.cache
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonClient\obj\Debug\DamMonClient.exe
+C:\Users\Damian\Documents\STUDIA\PRACA_MGR\Aplikacja\DamMonClient\DamMonClient\obj\Debug\DamMonClient.pdb

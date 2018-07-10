@@ -1,0 +1,81 @@
+﻿@model IEnumerable<DamMonWebConsole.Models.Serwer>
+
+@section scripts{
+    <script src="~/Scripts/jquery.signalR-2.2.2.min.js"></script>
+    <script src="~/signalr/hubs"></script>
+    <script>
+            $(function () {
+                // Deklaracja proxy dla hub-a.
+                var notificationsWP = $.connection.pomiaryHub;
+                // Funckja, która może wywoływać Hub.
+               
+                notificationsWP.client.aktualizujPomiary = function (probka) {
+                    if (typeof probka !== 'undefined') {
+                        wstawPomiar(probka["CzasProcesora"], probka["SredniaDlugoscKolejkiDyski"], probka["DostepnaPamiec"], probka["DataCzasProbki"], probka["NazwaSerwera"]);
+                    }
+                };
+                 
+                //$.connection.hub.logging = true;
+                $.connection.hub.start().done(function () {
+                    //alert("Połączony z serwerem");
+                    notificationsWP.client.aktualizujPomiary = function (probka) {
+                        if (typeof probka !== 'undefined') {
+                            wstawPomiar(probka["CzasProcesora"], probka["SredniaDlugoscKolejkiDyski"], probka["DostepnaPamiec"], probka["DataCzasProbki"], probka["NazwaSerwera"]);
+                        }
+                    };
+                }).fail(function (e) {
+                    alert(e);
+                });
+            });
+
+        function wstawPomiar(cpu,dysk,ram,data,serwer) {
+            var interval = 5000;
+            var divcpu = "#" + serwer + "_CPU";
+            var divdysk = "#" + serwer + "_DYSK";
+            var divram = "#" + serwer + "_RAM";
+            var divdt = "#" + serwer + "_DTPom";
+            var trkol = "#" + serwer + "_tr";
+            
+            var acpu = parseFloat($(divcpu).text().replace(',', '.'));
+            $(divcpu).empty();
+            $(divcpu).append(cpu);
+            var ncpu = parseFloat(cpu.toString().replace(',', '.'));
+            if (ncpu > acpu) {
+                $(divcpu).addClass('change_blink_up');
+            }
+            if (ncpu < acpu) {
+                $(divcpu).addClass('change_blink_down');
+            }
+            setTimeout(function () { $(divcpu).removeClass('change_blink_up').removeClass('change_blink_down') }, interval);
+
+
+            var aram = parseFloat($(divram).text().replace(',', '.'));
+            $(divram).empty();
+            $(divram).append(ram);
+            var nram = parseFloat(ram.toString().replace(',', '.'));
+            if (nram < aram) {
+                $(divram).addClass('change_blink_up');
+            }
+            if (nram > aram) {
+                $(divram).addClass('change_blink_down');
+            }
+            setTimeout(function () { $(divram).removeClass('change_blink_up').removeClass('change_blink_down') }, interval);
+
+            var adisk = Number($(divdysk).text().replace(',', '.'));
+            $(divdysk).empty();
+            $(divdysk).append(dysk);
+            var ndisk = Number(dysk.toString().replace(',', '.'));
+            if (ndisk > adisk) {
+                $(divdysk).addClass('change_blink_up');
+            }
+            if (ndisk < adisk) {
+                $(divdysk).addClass('change_blink_down');
+            }
+            setTimeout(function () { $(divdysk).removeClass('change_blink_up').removeClass('change_blink_down') }, interval);
+
+            $(divdt).empty();
+            $(divdt).append(data.toString());
+        }
+    </script>
+}
+@Html.Partial("_tabserw", Model)
